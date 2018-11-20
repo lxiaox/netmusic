@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e48965f-eecf-48d6-8c49-46ae2bb6047f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Qiniu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/leanClound.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,17 +33,31 @@
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="425">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/admin.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="leanClound.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/leanClound.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="306">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Qiniu.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/Qiniu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
             </state>
           </provider>
         </entry>
@@ -65,8 +81,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/admin.html" />
+        <option value="$PROJECT_DIR$/src/js/leanClound.js" />
         <option value="$PROJECT_DIR$/src/js/admin.js" />
+        <option value="$PROJECT_DIR$/src/js/Qiniu.js" />
+        <option value="$PROJECT_DIR$/src/admin.html" />
       </list>
     </option>
   </component>
@@ -76,18 +94,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="531" />
-    <option name="y" value="183" />
-    <option name="width" value="776" />
+    <option name="x" value="284" />
+    <option name="y" value="86" />
+    <option name="width" value="1200" />
     <option name="height" value="646" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -98,6 +122,32 @@
             <path>
               <item name="netmusic" type="b2602c69:ProjectViewProjectNode" />
               <item name="netmusic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netmusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netmusic" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netmusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netmusic" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qiniu-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netmusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netmusic" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qiniu-js" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netmusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netmusic" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qiniu-js" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="qiniu.min.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="netmusic" type="b2602c69:ProjectViewProjectNode" />
@@ -149,18 +199,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542680232987</updated>
-      <workItem from="1542680235715" duration="3088000" />
+      <workItem from="1542680235715" duration="8207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3088000" />
+    <option name="totallyTimeSpent" value="8207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="531" y="183" width="776" height="646" extended-state="0" />
+    <frame x="284" y="86" width="1200" height="646" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2331081" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -200,17 +250,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin.html">
+    <entry file="file://$PROJECT_DIR$/src/js/plupload.full.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/qiniu-js/dist/qiniu.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/leanClound.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Qiniu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>

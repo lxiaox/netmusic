@@ -8,10 +8,20 @@
   <title>凉小鱼admin_music</title>
 </head>
 <body>
+  <div id="container">
+    <button id="pickfiles">upload</button>
+  </div>
+
+<!--leanClound-->
 <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.0/dist/av-min.js"></script>
 <!--//数据存储服务-->
 <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.0/dist/av-live-query-min.js"></script>
+<!--qiniu-->
+<script src="./js/plupload.full.min.js"></script>
+<script src="../node_modules/qiniu-js/dist/qiniu.min.js"></script>
+<script src="./js/moxie.js"></script>
 
-<script src="js/admin.js"></script>
+<script src="js/Qiniu.js"></script>
+<script src="js/leanClound.js"></script>
 </body>
 </html>

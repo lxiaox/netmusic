@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lxiaox/netmusic/issues"
   },
-  "homepage": "https://github.com/lxiaox/netmusic#readme"
+  "homepage": "https://github.com/lxiaox/netmusic#readme",
+  "dependencies": {
+    "qiniu-js": "^2.5.3"
+  }
 }
