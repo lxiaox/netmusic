@@ -7,8 +7,8 @@ var uploader = Qiniu.uploader({
   // 在初始化时，uptoken, uptoken_url, uptoken_func 三个参数中必须有一个被设置
   // 切如果提供了多个，其优先级为 uptoken > uptoken_url > uptoken_func
   // 其中 uptoken 是直接提供上传凭证，uptoken_url 是提供了获取上传凭证的地址，如果需要定制获取 uptoken 的过程则可以设置 uptoken_func
-  uptoken : '<Your upload token>', // uptoken 是上传凭证，由其他程序生成
-  // uptoken_url: '/uptoken',         // Ajax 请求 uptoken 的 Url，**强烈建议设置**（服务端提供）
+  // uptoken : '<Your upload token>', // uptoken 是上传凭证，由其他程序生成
+  uptoken_url: 'http://localhost:8888/uptoken',         // Ajax 请求 uptoken 的 Url，**强烈建议设置**（服务端提供）
   // uptoken_func: function(file){    // 在需要获取 uptoken 时，该方法会被调用
   //    // do something
   //    return uptoken;
